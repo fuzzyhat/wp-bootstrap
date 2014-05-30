@@ -1,0 +1,33 @@
+.color-box {
+  background: #ffffff;
+  border: 1px solid #bbb;
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  margin: 0 .5rem .5rem 0;
+  padding: 5px;
+  position: relative; }
+  .color-box .color-swatch {
+    display: block;
+    height: 100%;
+    width: 100%;
+    position: relative; }
+    .color-box .color-swatch .hex-code {
+      background: rgba(0, 0, 0, 0.7);
+      bottom: 0;
+      color: #ffffff;
+      font-size: 1em;
+      margin: 0;
+      opacity: 0;
+      padding: 5px 0;
+      position: absolute;
+      text-align: center;
+      text-transform: uppercase;
+      width: 100%;
+      -webkit-transition: all 0.6s ease-out;
+      -moz-transition: all 0.6s ease-out;
+      -ms-transition: all 0.6s ease-out;
+      -o-transition: all 0.6s ease-out;
+      transition: all 0.6s ease-out; }
+    .color-box .color-swatch:hover .hex-code {
+      opacity: 1; }
